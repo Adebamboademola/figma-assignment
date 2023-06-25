@@ -1,0 +1,272 @@
+.price-perfect {
+  text-align: center;
+}
+
+.price-perfect-header {
+  width: 500px;
+  margin: 0 auto;
+  
+}
+
+.all-plans-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.all-plans-container > div {
+  width: 32%;
+  border: 1px solid #bdd3f5;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 0.8cm;
+  transition: ease 0.5s all;
+}
+.all-plans-container > div:hover {
+  background-color: #1e3448;
+  color: #fff;
+}
+
+.all-plans-container div div {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.all-plans-container div div p {
+  margin-left: 10px;
+}
+
+.all-plans-container div p:first-child {
+  margin-bottom: 20px;
+}
+
+.custom-pricing {
+  color: #0065fe;
+  border: 2px solid #0065fe;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: inherit;
+  margin: 5px;
+}
+
+.select-pricing {
+  background-color: #0065fe;
+  border: 2px solid #0065fe;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  margin: 5px;
+}
+
+/* ============= */
+/* URLS */
+.post-url-sect {
+  background-color: #1f3549;
+  margin-top: 4rem;
+  color: #0065fe;
+  padding-block: 4rem;
+  text-align: center;
+}
+
+.post-url-sect form {
+  background-color: #fff;
+  width: 350px;
+  margin: 0px auto;
+  padding: 20px 30px 40px;
+  border-radius: 10px;
+}
+/* @media screen and (max-width: 450px) {
+  .post-url-sect form {
+    width: 95%;
+  }
+} */
+
+.post-url-sect form > input {
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+  border: 2px solid #0065fe;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-url-sect form > input::placeholder {
+  color: #0065fe;
+}
+
+.post-url-sect form > input:focus {
+  outline: 3px solid #0065fe;
+}
+
+.select-domain-con select,
+.select-domain-con input {
+  width: 49%;
+  padding-left: 10px;
+  height: 40px;
+  border: 2px solid #0065fe;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.select-domain-con input::placeholder,
+.select-domain-con select {
+  color: #0065fe;
+}
+
+.select-domain-con input:focus,
+.select-domain-con select:focus {
+  outline: 3px solid #0065fe;
+}
+
+.trim-url-con {
+  width: 100%;
+  background-color: #0065fe;
+  color: #fff;
+  border: none;
+  padding-block: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-url-sect form p {
+  text-align: left;
+  font-size: 13px;
+}
+
+/* ========= */
+/* Faq */
+.faq-sect {
+  /* border: 2px solid red; */
+  width: 500px;
+  margin: 30px auto;
+}
+/* @media screen and (max-width: 600px) {
+  .faq-sect {
+    width: 95%;
+  }
+} */
+
+.faq-sect h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.each-faq-con {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.faq-content-con {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-content-con p:first-child {
+  /* border: 2px solid red; */
+  width: 95%;
+}
+
+.faq-content-con p:last-child {
+  font-size: 30px;
+}
+
+.each-faq-con > p {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+}
+
+
+/* =============== */
+/* Pre Footer CSS */
+.pre-footer-sect {
+  background-color: #1f3549;
+  padding-block: 4rem 2rem;
+  color: #fff;
+  text-align: center;
+  margin-block: 5rem 3rem;
+}
+
+.pre-footer-sect button {
+  margin-top: 20px;
+  background-color: #0065fe;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* =============== */
+/* Footer Section */
+.footer-section {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0px auto 4rem;
+}
+/* @media screen and (max-width: 960px) {
+  .footer-section {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-con {
+    margin-top: 30px;
+  }
+} */
+
+.scissor-con {
+  /* border: 2px solid green; */
+  width: 15%;
+}
+
+.scissor-con img {
+  width: 100px;
+}
+
+.footer-content-con {
+  width: 80%;
+}
+
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer-sect {
+  /* border: 2px solid red; */
+  width: 75%;
+}
+
+.footer-con div {
+  /* border: 2px solid yellow; */
+  width: 23%;
+  font-size: 12px;
+  line-height: 0.7cm;
+}
+
+.lower-footer-sect div {
+  width: 30%;
+}
+
+.footer-con div h3 {
+  font-size: 18px;
+}
+/* @media screen and (max-width: 700px) {
+  .footer-content-con {
+    width: 100%;
+  }
+} */
